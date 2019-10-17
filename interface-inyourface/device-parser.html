@@ -103,6 +103,10 @@
 
     $.ajax({
 
+      url: $('#host').val(),
+      method: 'GET',
+      dataType: 'json',
+
       // TODO 6: Add in the basic properties and error property of the object passed to the AJAX call
       
       success: function (data) {
